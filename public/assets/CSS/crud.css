@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Times New Roman", Times, serif;
+}
+header {
+    padding: 20px;
+    width: 100vw;
+    background-color: tomato;
+    font-size: 25px;
+    font-weight: 700;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 1.5px 1px 0px;
+    border-radius: 0px 0px 15px 15px;
+}
+.title,
+.table {
+    margin: 10px;
+}
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title a button {
+    background-color: rgb(74, 234, 74);
+    padding: 6px 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.title a button:hover {
+    background-color: rgb(171, 241, 171);
+}
+.table table {
+    font-size: 22px;
+    width: 100%;
+    padding-top: 15px;
+}
+.table th,
+.table td {
+    padding: 10px 20px;
+}
+input, label {
+    font-size: 20px;
+}
+input {
+    margin-top: 8px;
+}
+input[type="text"] {
+    width: 280px;
+    margin-bottom: 18px;
+    padding: 7px;
+    font-size: 20px;
+}
+.button button {
+    padding: 7px 22px;
+    background-color: rgb(74, 234, 74);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+.button button:hover {
+    background-color: rgb(74, 181, 60);
+}
+.btn-update {
+    background-color: rgb(52, 145, 255);
+    color: white;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.btn-update:hover {
+    background-color: rgb(34, 94, 186);
+}
+.btn-delete {
+    background-color: rgb(255, 53, 53);
+    color: white;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 5px;
+}
+.btn-delete:hover {
+    background-color: rgb(155, 0, 0);
+}
+.action {
+    display: flex;
+    justify-content: center;
+}
